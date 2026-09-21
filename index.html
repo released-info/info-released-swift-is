@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--timestamp=1757809450-->
+<!--timestamp=1790025384-->
 
 <head>
   <meta charset="UTF-8">
@@ -12,25 +12,25 @@
           crossorigin="anonymous"></script>
   
   <title>
-    Is Swift 6.2 Released?
+    Is Swift 6.4 Released?
   </title>
   <link rel="icon" href="https://released.info/assets/img/technologies/swift/swift.ico" type="image/svg+xml">
-  <meta name="description" content="Is Swift 6.2 Released?">
+  <meta name="description" content="Is Swift 6.4 Released?">
   <meta name="keywords" content="Swift, release, date, when, programming, language, development">
-  <meta name=”robots” content="index, follow">
+  <meta name="robots" content="index, follow">
 
   <!-- facebook -->
   <meta property="og:url" content="https://is.swift.released.info" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Is Swift 6.2 Released?" />
-  <meta property="og:description" content="There is no information about Swift 6.2 release! Still waiting! #released.info" />
+  <meta property="og:title" content="Is Swift 6.4 Released?" />
+  <meta property="og:description" content="Swift 6.4 has been released! #released.info" />
   <meta property="og:image" content="https://released.info/assets/img/technologies/swift/swift-logo.png" />
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="ReleasedInfo" />
-  <meta name="twitter:title" content="Is Swift 6.2 Released?" />
-  <meta name="twitter:description" content="There is no information about Swift 6.2 release! Still waiting! #released.info" />
+  <meta name="twitter:title" content="Is Swift 6.4 Released?" />
+  <meta name="twitter:description" content="Swift 6.4 has been released! #released.info" />
   <meta name="twitter:image" content="https://released.info/assets/img/technologies/swift/swift-logo.png" />
 
   <meta name="url" content="https://is.swift.released.info" />
@@ -47,7 +47,7 @@
 
 <body>
 
-  <input id="released-days" type="hidden" value="-1" />
+  <input id="released-days" type="hidden" value="0" />
 
   <main role="main">
     <a href="https://released.info/index.html" class="go-back"><i class="bi bi-arrow-left"></i></a>
@@ -72,27 +72,28 @@
           </li>
         </ul>
         <h2>
-          Is Swift 6.2 Released?
+          Is Swift 6.4 Released?
         </h2>
         <div class="row">
           <div class="col-lg-8">
 
             <div id="logo">
-              <span role="img" aria-label="${configuration.logoAlt}"
+              <span role="img" aria-label="Swift logo"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/swift/swift-logo.png&#39;);">
               </span>
             </div>
 
             <!-- CHOOSE ONE OF BELOW SECTIONS HERE -->
 
-            
-            
-            
             <span>
-              <div class="white-box" id="no-information">
-                No information
+              <div class="white-box" id="time-out">
+                It's Out!
               </div>
             </span>
+            
+            <!-- A counter that reached zero falls back to "Not Yet" instead of an empty box until the state is updated -->
+            
+            
 
             <!-- END -->
 
@@ -101,10 +102,14 @@
         <div class="row">
           <div class="col-lg-8">
             <h3 id="highlightTextDescription1">
-              There is no information about release date
+              Swift 6.4 has been released on <span class="btn-primary">15th September 2026</span>
             </h3>
           </div>
-          
+          <div class="col-lg-8">
+            <h4 id="highlightTextDescription2">
+              Swift 6.4 ships with Xcode 27, there is no release date for Swift 6.5 yet
+            </h4>
+          </div>
         </div>
         <div class="text-center">
           <a class="share-twitter" target="_blank">
@@ -118,26 +123,26 @@
     <section class="features-section">
       <div class="container-lg">
         <h2>
-          Meet Swift 6.2
+          Meet Swift 6.4
         </h2>
         <div class="row mb-5">
           <div class="col-md-5">
 
             <ul>
               <li>
-                Enhanced Concurrency Model
+                @c attribute for C interoperability
               </li>
             </ul>
 
             <ul>
               <li>
-                Typed Throws
+                async calls inside defer blocks (SE-0493)
               </li>
             </ul>
 
             <ul>
               <li>
-                Ownership and Non-Copyable Types
+                @diagnose attribute for warning control (SE-0522)
               </li>
             </ul>
 
@@ -145,27 +150,27 @@
           <div class="col-md-5">
             <ul>
               <li>
-                Improved C++ Interoperability
+                ~Sendable to suppress Sendable (SE-0518)
               </li>
             </ul>
             <ul>
               <li>
-                128-bit Integers
+                Optional some/any sugar: some Rocket? (SE-0521)
               </li>
             </ul>
             <ul>
               <li>
-                Productivity Enhancements
+                XCTest and Swift Testing interoperability (ST-0021)
               </li>
             </ul>
           </div>
         </div>
         <div class="text-center">
-          <a target="_blank" href="https://github.com/apple/swift/blob/main/CHANGELOG.md" class="btn btn-primary btn-lg">Read more</a>
+          <a target="_blank" href="https://www.swift.org/blog/swift-6.4-released/" class="btn btn-primary btn-lg">Read more</a>
         </div>
       </div>
       <div class="logo-container">
-        <span role="img" aria-label="${configuration.logoAlt2}"
+        <span role="img" aria-label="Swift logo"
           style="background-image: url(&#39;https://released.info/assets/img/technologies/swift/swift-logo2.png&#39;);">
         </span>
       </div>
@@ -182,7 +187,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Learning Swift"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/swift/book-Learning-Swift.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Jon-Manning/dp/149198757X?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=2eb466291c761bbcb5f0a4ee891f8407&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -196,7 +201,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: iOS 14 Programming Fundamentals with Swift"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/swift/book-iOS-14-Programming-Fundamentals-with-Swift.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Matt-Neuburg/dp/1492092096?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=0f7b4db43a3a1d7a879100bb6879cfae&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -210,7 +215,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Mastering Swift 5.3"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/swift/book-Mastering-Swift.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Jon-Hoffman-ebook/dp/B08M6JWZSJ?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=5d5826d66f53f8d54c6532a0a9455a80&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -224,7 +229,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: iOS 14 Programming for Beginners"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/swift/book-iOS-14-Programming-for-Beginners.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Ahmad-Sahar-ebook/dp/B08JZHR2V3?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=1f62f7ecf6dfa1d237823a5540ff26e6&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -238,7 +243,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Mastering Swift 5"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/swift/book-Mastering-Swift-5.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Jon-Hoffman-ebook/dp/B07RD3P9PY?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=313d6f0764c6894dc58f27ae5b04c5cb&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -252,7 +257,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Swift in Depth"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/swift/book-Swift-in-Depth.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Tjeerd-t-Veen/dp/1617295183?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=4ec8236ff004ecfae33fe08599d681ea&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -300,13 +305,13 @@
     <section class="about-section">
       <div class="container-lg">
         <div>
-  <h1>About Swift</h1>
+  <h1>Version</h1>
   You can check which version of Swift you are using by running the following command in the Terminal:
   <pre>swift --version</pre>
   <h1>About Swift</h1>
   Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source
   community, first released in 2014.
-  Swift was developed as a replacement for Apple's earlier programming language Objective-C, as Objective-C. <br />
+  Swift was developed as a replacement for Apple's earlier programming language Objective-C. <br />
   <div id="hidden-about"><br />
     Swift defines away large classes of common programming errors by adopting modern programming patterns:
     <ul>
@@ -325,15 +330,13 @@
     of the latest advances in Macs, iPhones, iPads, and other Apple products. <br />
     <br />
     <h3>Releases</h3>
-    Swift 5.1 was officially released in September 2019. Swift 5.1 builds on the previous version of Swift 5 by
-    extending the stable features
-    of the language to compile-time with the introduction of module stability.
-    The introduction of module stability makes it possible to create and share binary frameworks that will work with
-    future releases of Swift.
+    The current release is Swift 6.4, released on 15th September 2026 alongside Xcode 27. Swift 5.1 (September 2019) introduced module stability, which makes it possible to create and share binary frameworks that keep working with future releases of Swift.
     <ul>
       <li>Swift 5.2 - March 24, 2020</li>
       <li>Swift 5.3 - September 16, 2020</li>
       <li>Swift 5.4 - April 26, 2021</li>
+      <li>Swift 6.3 - March 27, 2026</li>
+      <li>Swift 6.4 - September 15, 2026 (latest Swift version)</li>
     </ul>
   </div>
 </div>
